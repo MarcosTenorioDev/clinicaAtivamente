@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 .navLinksUl{
     display: flex;
@@ -11,3 +12,15 @@
 .navLinksLi{
     list-style: none;
 }
+
+.navLinksLi{
+    list-style: none;
+}
+
+.navLinksUl a li{
+    color: #878685;
+    font-family: 'Inter';
+    font-weight: 600;
+    
+}
+

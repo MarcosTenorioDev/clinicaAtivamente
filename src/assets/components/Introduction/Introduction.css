@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
+    margin-bottom: 1.5%;
+    margin-top: 1%;
 }
 
 .Subcontainer {
@@ -12,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     
+
 }
 
 .Logo img {
@@ -22,6 +25,7 @@
     text-align: center;
     color: #878685;
     font-family: 'Inter', sans-serif;
+    
 }
 
 .botoes {
@@ -40,7 +44,7 @@
 
 .botoes .btn_1 a {
     color: aliceblue;
-    padding: 10px;
+    padding: 15px 25px 17px 25px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 
@@ -56,7 +60,7 @@
 
 .botoes .btn_2 a {
     color: aliceblue;
-    padding: 10px;
+    padding: 15px 25px 17px 25px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
@@ -64,5 +68,15 @@
 .Container .Subcontainer_2 img {
     height: 80vh;
     border-radius: 346.599px;
-border: 3px solid #0ABBB5;
+    border: 3px solid #0ABBB5;
+}
+
+@media  (max-width: 767px) {
+    .Container {
+        margin-bottom: 20%;
+    }
+    .Container .Subcontainer_2 img {
+        display: none;
+        
+    }
 }
