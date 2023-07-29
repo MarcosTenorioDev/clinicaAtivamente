@@ -1,76 +1,107 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-#about{
+#about {
     background-color: #0ABBB5;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding: 0px 5%;
 }
-.aboutBoxTitle{
-    border: solid 2px red;
+
+.aboutBoxTitle {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0px 0px 0px;
 }
-.titleAbout{
+
+.titleAbout {
     color: white;
     font-family: 'Inter', sans-serif;
-
+    font-weight: 900;
+    white-space: nowrap;
+    margin: 0px 70px;
 }
 
-.lineOne{
-    height: 2px;
-    width: 300px;
+.line {
+    height: 3px;
+    width: 100%;
     background-color: white;
-    margin-right: 3%;
-    
+    border-radius: 50px;
 }
 
-.lineTwo{
-    height: 2px;
-    width: 300px;
-    background-color: white;
-    margin-left: 3%;
+.aboutSpace {
+    height: 5rem;
 }
 
-
-.aboutSpace{
-    height: 10%;
+.aboutSpaceTwo{
+    height: 8rem;
 }
 
-.aboutContent{
-    border: 2px solid black;
+.aboutContent {
     justify-content: space-between;
     display: flex;
+    flex-direction: column;
 }
 
-.aboutContentLeft{
+.boxContentLeft {
+    display: flex;}
+
+.boxContentRigth {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.boxContentRigth .aboutContentRight{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 0px 5%;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgb(42, 41, 41);}
+
+.aboutContentLeft {
     display: flex;
     align-items: center;
     flex-direction: column;
-   
 }
 
-.aboutContentLeft img{
+.aboutContentLeft img {
     height: 25rem;
-    margin-bottom: 10px;
     border-radius: 50%;
-    margin-bottom: 10px;
-    border: white 2px solid;
+    border: white 5px solid;
 }
 
-.aboutContentLeft p{
-    font-size: 35px;
+.imgContainer{
+    border: 0.5px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutContentLeft p {
+    font-size: 25px;
     color: white;
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px rgb(42, 41, 41);
 }
 
 
-.aboutContentRigth{
-    border: 2px solid purple;
-    width: 60%;
+.aboutContentRigth {
+    width: 100%;
     padding: 0px 5%;
-    font-size: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgb(42, 41, 41);
+
 }
 
 
+.aboutContentTwo {
+    flex-direction: column;
+    display: flex;
+}
