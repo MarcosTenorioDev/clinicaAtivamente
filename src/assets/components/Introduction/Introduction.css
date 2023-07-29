@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap%27');
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Logo img {
+    height: 50vh;
+}
+
+.Logo h3 {
+    text-align: center;
+    color: #878685;
+    font-family: 'Inter', sans-serif;
+}
+
+.botoes {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.botoes .btn_1 {
+    background-color: #3acac8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.botoes .btn_1 a {
+    color: aliceblue;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+}
+
+.botoes .btn_2 {
+    background-color: #e94721;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.botoes .btn_2 a {
+    color: aliceblue;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.Container .Subcontainer_2 img {
+    height: 80vh;
+    border-radius: 346.599px;
+border: 3px solid #0ABBB5;
+}
