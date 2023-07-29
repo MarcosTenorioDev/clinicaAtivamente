@@ -5,9 +5,9 @@ const AboutWork = () => {
     <>
       <div className="aboutWorkContainer">
         <div className="titleContainer">
-          <p className="line"></p>
+          <p className="lineWork"></p>
           <h2 className="aboutWorkTitle">Como trabalhamos</h2>
-          <p className="line"></p>
+          <p className="lineWork"></p>
         </div>
         <div className="contentContainer">
           <p className="aboutWorkContent">
