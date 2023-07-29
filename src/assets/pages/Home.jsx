@@ -1,7 +1,9 @@
 import NavBar from '../components/NavBar/NavBar'
+import About from '../components/About/About'
 import './homePage.css'
 import '../../global.css'
 import Introduction from '../components/Introduction/Introduction'
+
 
 const Home = () => {
     return(
@@ -13,8 +15,8 @@ const Home = () => {
                 </header>
 
                 <section className='about'>
-                    {/* Componente About */}
-                </section>
+                    <About />
+                </section> 
 
                 <section className='aboutWork'>
                     {/* Componente AboutWork - Como trabalhamos */}
