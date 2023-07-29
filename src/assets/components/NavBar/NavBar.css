@@ -1,0 +1,13 @@
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLinksUl{
+    display: flex;
+    gap: 20px;
+}
+
+.navLinksLi{
+    list-style: none;
+}

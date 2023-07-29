@@ -1,0 +1,19 @@
+#homePage{
+    background-image: url('../images/background.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    max-width: 1980px;
+    width: 100%;
+    padding: 0px 5%;
+}
+
+/* .header{
+
+} */
