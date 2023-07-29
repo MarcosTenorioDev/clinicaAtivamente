@@ -1,5 +1,6 @@
 import NavBar from '../components/NavBar/NavBar'
 import About from '../components/About/About'
+import AboutWork from '../components/AboutWork/AboutWork'
 import './homePage.css'
 import '../../global.css'
 import Introduction from '../components/Introduction/Introduction'
@@ -19,7 +20,7 @@ const Home = () => {
                 </section> 
 
                 <section className='aboutWork'>
-                    {/* Componente AboutWork - Como trabalhamos */}
+                    <AboutWork />
                     {/* OurService - características do nosso atendimento */}
                     {/* Operation - principais atuações */}
                 </section>
