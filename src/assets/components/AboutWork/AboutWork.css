@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,500;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@1,100&display=swap');
+.aboutWorkContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+}
+.titleContainer{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 0px 5% 35px;
+    width: 100%;
+}
+.aboutWorkTitle{
+    white-space: nowrap;
+    font-family: inter, sans-serif;
+}
+.contentContainer{
+    max-width: 1000px;
+}
+.aboutWorkContent{
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+}
+.line{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
