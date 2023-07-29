@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar/NavBar'
 import About from '../components/About/About'
 import './homePage.css'
 import '../../global.css'
+import Introduction from '../components/Introduction/Introduction'
 
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
             <div className='content'>
                 <header className='header'>
                     <NavBar />
-                    {/* aqui vem o componente Introduction */}
+                    <Introduction/>
                 </header>
 
                 <section className='about'>
