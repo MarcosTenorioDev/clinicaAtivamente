@@ -3,7 +3,7 @@ import cliente1 from '../../images/cliente1.webp'
 
 const About = () => {
     return (
-        <div id="about">
+        <div id="aboutContainer">
             <div className='aboutBoxTitle'>
                 <p className='line'></p>
                 <h1 className='titleAbout'>Quem somos?</h1>
