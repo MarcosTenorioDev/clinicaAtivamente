@@ -10,22 +10,50 @@
 }
 
 .Subcontainer {
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-
+    align-items: start;
 }
 
-.Logo img {
-    height: 50vh;
+.Logo_box .Text_logo h3 {
+    color: #0ABBB5;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 28px;
 }
 
-.Logo h3 {
-    text-align: center;
+.Logo_box2 {
+    display: flex;
+}
+
+.Logo_box3 {
+    display: flex;
+    align-items: end;
+}
+
+.Text_logo2 {
+    display: flex;
+    gap: 10px;
+}
+
+.Text_logo2 .Text_1 {
+    color: #0ABBB5;
+    font-size: 32px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.Text_logo2 .Text_2 {
+    color: #e94721;
+    font-size: 32px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.Text_logo3 h3 {
+
     color: #878685;
     font-family: 'Inter', sans-serif;
-    
+    font-size: 24px;
+    margin-top: 20px;
 }
 
 .botoes {
@@ -47,7 +75,6 @@
     padding: 15px 25px 17px 25px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-
 }
 
 .botoes .btn_2 {
@@ -71,12 +98,13 @@
     border: 3px solid #0ABBB5;
 }
 
-@media  (max-width: 767px) {
+@media (max-width: 767px) {
     .Container {
         margin-bottom: 20%;
     }
+
     .Container .Subcontainer_2 img {
         display: none;
-        
+
     }
 }
