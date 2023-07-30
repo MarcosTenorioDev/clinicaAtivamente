@@ -8,11 +8,18 @@
 }
 
 .content{
-    max-width: 1980px;
-    width: 100%;
-    padding: 0px 5%;
+    
 }
 
-/* .header{
+.section{
+    max-width: 1980px;
+    width: 100%;
+    padding: 0px 5% 0px 5%;
+}
 
-} */
+.backgroundAbout{
+    background-color: #0ABBB5;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}

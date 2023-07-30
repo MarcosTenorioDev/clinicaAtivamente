@@ -9,27 +9,26 @@ import Introduction from '../components/Introduction/Introduction'
 const Home = () => {
     return(
         <div id='homePage'>
-            <div className='content'>
-                <header className='header'>
+                <header className='section' id='header'>
                     <NavBar />
                     <Introduction/>
                 </header>
+                <div className='backgroundAbout'>
+                    <section className='section' id='about'>
+                        <About />
+                    </section> 
+                </div>
+               
 
-                <section className='about'>
-                    <About />
-                </section> 
-
-                <section className='aboutWork'>
+                <section className='section' id='aboutWork'>
                     <AboutWork />
                     {/* OurService - características do nosso atendimento */}
                     {/* Operation - principais atuações */}
                 </section>
 
-                <section className='contact'>
+                <section className='section' id='contact'>
                     {/* Contact - Entre em contato */}
                 </section>
-
-            </div>
             
             
         </div>
