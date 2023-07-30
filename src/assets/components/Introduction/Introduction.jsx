@@ -1,15 +1,31 @@
-import Logo_Introduction from '../../images/logo_Introduction.webp'
 import '../../components/Introduction/Introduction.css'
 import Coroa from '../../images/Img_Introduction.webp'
-
+import logo from '../../images/logo.webp'
 
 const Introduction = () => {
     return (
         <div className='Container'>
             <div className='Subcontainer'>
-                <div className='Logo'>
-                    <img src={Logo_Introduction} alt="" />
-                    <h3>Ative sua vida, positive sua mente</h3>
+                <div className='Logo_box'>
+                    <div className='Logo_box2'>
+                        <div className='Logo_box3'>
+                            <div className='Text_logo'>
+                                <h3>NÚCLEO MULTIDISCIPLINAR</h3>
+                            </div>
+                        </div>
+                        <img src={logo} alt="" height={150} />
+                    </div>
+                    <div className='Text_logo2'>
+                        <div className='Text_1'>
+                            <h2>ESPAÇO</h2>
+                        </div>
+                        <div className='Text_2'>
+                            <h2 >ATIVAMENTE</h2>
+                        </div>
+                    </div>
+                    <div className='Text_logo3'>
+                    <h3>ATIVE SUA VIDA POSITIVE SUA MENTE</h3>
+                    </div>
                 </div>
                 <div className="botoes">
                     <div className="btn_1">
@@ -22,9 +38,9 @@ const Introduction = () => {
 
             <div className='Subcontainer_2'>
                 <div>
-                <img src={Coroa} alt=""/>
+                    <img src={Coroa} alt="" />
                 </div>
-                
+
             </div>
         </div>
     )
