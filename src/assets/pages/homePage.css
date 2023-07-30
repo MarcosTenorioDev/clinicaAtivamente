@@ -19,7 +19,7 @@
 
 .backgroundAbout{
     background-color: #0ABBB5;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
