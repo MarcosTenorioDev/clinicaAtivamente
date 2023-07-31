@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar/NavBar'
 import About from '../components/About/About'
 import AboutWork from '../components/AboutWork/AboutWork'
 import OurService from '../components/OurService/OurService'
+import Operation from '../components/Operation/Operation'
 import './homePage.css'
 import '../../global.css'
 import Introduction from '../components/Introduction/Introduction'
@@ -24,7 +25,7 @@ const Home = () => {
                 <section className='section' id='aboutWork'>
                     <AboutWork />
                     <OurService />
-                    {/* Operation - principais atuações */}
+                    <Operation />
                 </section>
 
                 <section className='section' id='contact'>
