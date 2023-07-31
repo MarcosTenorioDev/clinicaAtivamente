@@ -1,0 +1,16 @@
+#contactIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.descImgContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.descImg{
+    margin-top: 4px;
+    cursor: pointer;
+}
