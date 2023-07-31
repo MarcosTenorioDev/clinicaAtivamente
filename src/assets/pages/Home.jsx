@@ -3,6 +3,8 @@ import About from '../components/About/About'
 import AboutWork from '../components/AboutWork/AboutWork'
 import OurService from '../components/OurService/OurService'
 import Operation from '../components/Operation/Operation'
+import Contact from '../components/Contact/Contact'
+
 import './homePage.css'
 import '../../global.css'
 import Introduction from '../components/Introduction/Introduction'
@@ -29,7 +31,7 @@ const Home = () => {
                 </section>
 
                 <section className='section' id='contact'>
-                    {/* Contact - Entre em contato */}
+                    <Contact />
                 </section>
             
             
