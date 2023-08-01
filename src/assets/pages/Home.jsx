@@ -5,6 +5,7 @@ import OurService from '../components/OurService/OurService'
 import Operation from '../components/Operation/Operation'
 import Contact from '../components/Contact/Contact'
 import Forms from '../components/Forms/Forms'
+import FloatIcon from '../components/FloatIcon/FloatIcon'
 
 import './homePage.css'
 import '../../global.css'
@@ -14,6 +15,7 @@ import Introduction from '../components/Introduction/Introduction'
 const Home = () => {
     return(
         <div id='homePage'>
+            <FloatIcon />
             <NavBar />
                 <header className='section' id='header'>
                     
