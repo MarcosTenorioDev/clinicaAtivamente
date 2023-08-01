@@ -5,8 +5,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: start;
-    margin-bottom: 1.5%;
-    margin-top: 1%;
+    margin-bottom: 1.0%;
+    margin-top: 7%;
 }
 
 .Subcontainer {
@@ -98,13 +98,125 @@
     border: 3px solid #0ABBB5;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 320px){
+    .Text_logo2 .Text_1 h2{
+        color: #0ABBB5;
+        font-size: 25px;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+    }
+
+    .Text_logo2 .Text_2 h2{
+        color: #e94721;
+        font-size: 25px;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+    }
+
+    .botoes .btn_1  a{
+        color: aliceblue;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+
+    }
+    
+    .botoes .btn_2 a {
+        color: aliceblue;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 550px){
+    .Container{
+        padding-top:  10%;
+    }
+
+    .Logo_box2 img{
+        display: flex;
+        height: 10vh;
+    }
+
+    .Subcontainer {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Logo_box .Text_logo h3 {
+        color: #0ABBB5;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        font-size: 23px;
+    }
+
+    .Logo_box .Text_logo h3 {
+        color: #0ABBB5;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+    .Text_logo2 .Text_1 {
+        color: #0ABBB5;
+        font-size: 20px;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+    }
+
+    .Text_logo2 .Text_2 {
+        color: #e94721;
+        font-size: 20px;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+    }
+
+    .Text_logo3 h3 {
+
+        color: #878685;
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    
+    .botoes .btn_1 a {
+        color: aliceblue;
+        padding: 10px 10px 10px 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+    
+    .botoes .btn_2 a {
+        color: aliceblue;
+        padding: 10px 10px 10px 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+}
+
+@media (max-width: 1000px) {
     .Container {
-        margin-bottom: 20%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        justify-content: center;
+    }
+
+    
+
+    
+
+    .Container .Subcontainer_2 img {
+       display: none;
+    }
+}
+
+@media (max-width: 1050px) {
+    .Container{
+        align-items: center;
     }
 
     .Container .Subcontainer_2 img {
-        display: none;
-
+        height: 60vh;
+        border-radius: 346.599px;
+        border: 3px solid #0ABBB5;
     }
 }
