@@ -32,3 +32,22 @@
     background-color: rgb(0, 0, 0);
     border-radius: 50px;
 }
+
+@media(max-width: 1100px){
+    .aboutWorkContent{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 700px){
+    .aboutWorkContent{
+        font-size: 14.5px;
+        text-align: justify;
+    }
+
+    .titleContainer{
+
+        justify-content: center;
+
+    }
+}
