@@ -1,5 +1,5 @@
 import '../../components/Introduction/Introduction.css'
-import Coroa from '../../images/Img_Introduction.webp'
+import Cliente1 from '../../images/Img_Introduction.webp'
 import logo from '../../images/logo.webp'
 
 const Introduction = () => {
@@ -38,7 +38,7 @@ const Introduction = () => {
 
             <div className='Subcontainer_2'>
                 <div>
-                    <img src={Coroa} alt="" />
+                    <img src={Cliente1} alt="" />
                 </div>
 
             </div>

@@ -14,8 +14,9 @@ import Introduction from '../components/Introduction/Introduction'
 const Home = () => {
     return(
         <div id='homePage'>
+            <NavBar />
                 <header className='section' id='header'>
-                    <NavBar />
+                    
                     <Introduction/>
                 </header>
                 <div className='backgroundAbout'>
