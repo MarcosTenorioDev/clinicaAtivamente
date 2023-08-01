@@ -32,6 +32,7 @@ const Home = () => {
                     <Operation />
                 </section>
 
+                <h2 className='contactTitle'>Entre em contato</h2>
                 <section className='section' id='contact'>
                     <Contact />
                     <Forms />
