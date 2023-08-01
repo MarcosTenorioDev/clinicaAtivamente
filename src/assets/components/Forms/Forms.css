@@ -1,0 +1,74 @@
+#emailSmallInputContainer {
+    display: flex;
+    gap: 10px;
+  }
+  .contactContainer{
+      max-width: fit-content;
+      margin: 60px 0px;
+  }
+  .emailForm {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .smallInputContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.modalInput{
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid #E94721;
+    outline: none;
+    padding: 0px 20px;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    width: 100%;  
+    box-shadow: 2px 4px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.modalLabel{
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+  #message {
+    padding-top: 15px;
+    height: 180px;
+    resize: none;
+  }
+  .inputContact{
+      margin-top: 5px;
+  }
+  .submitButton {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #E94721;
+    box-shadow: 2px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    width: 120px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  @media(max-width:700px){
+      .emailHeaderTitle{
+          font-size: 28px;
+      }
+      
+      .emailHeaderSub{
+          font-size: 16px;
+      }
+      .contactContainer{
+          margin: 40px 0px;
+      }
+  }

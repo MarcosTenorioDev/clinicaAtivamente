@@ -14,3 +14,11 @@
     margin-top: 4px;
     cursor: pointer;
 }
+.iconText{
+    white-space: nowrap;
+}
+.contactTwoIconsBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
