@@ -1,7 +1,4 @@
 #homePage{
-    background-image: url('../images/background.webp'); 
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +31,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.backgroundSection{
+    background-image: url(../images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 @media (max-width: 950px){

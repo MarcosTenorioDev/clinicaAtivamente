@@ -17,22 +17,25 @@ const Home = () => {
         <div id='homePage'>
             <FloatIcon />
             <NavBar />
+            <div className='backgroundSection'>
                 <header className='section' id='header'>
-                    
                     <Introduction/>
                 </header>
+            </div>
                 <div className='backgroundAbout'>
                     <section className='section' id='about'>
                         <About />
                     </section> 
                 </div>
                
-
+            <div className='backgroundSection'>
                 <section className='section' id='aboutWork'>
                     <AboutWork />
                     <OurService />
                     <Operation />
                 </section>
+            </div>
+                
 
                 <h2 className='contactTitle'>Entre em contato</h2>
                 <section className='section' id='contact'>
