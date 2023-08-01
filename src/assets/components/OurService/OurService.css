@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,500;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@1,100&display=swap');
-.ourServiceTag{
+
+.ourServiceTag {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 125px;
-    width: 100%;   
+    width: 100%;
     gap: 25px;
 }
-.ourServiceTitle{
+
+.ourServiceTitle {
     font-family: inter, sans-serif;
     text-align: center;
 }
-.ourServiceImgBg{
+
+.ourServiceImgBg {
     background-color: rgba(10, 187, 181, 0.20);
     width: 125px;
     height: 125px;
@@ -22,7 +25,8 @@
     align-items: center;
     justify-content: center;
 }
-.ourServiceContentBox{
+
+.ourServiceContentBox {
     height: 100%;
     max-width: 350px;
     display: flex;
@@ -31,34 +35,124 @@
     justify-content: center;
     text-align: center;
 }
-.ourServiceTagContainer{
+
+.ourServiceTagContainer {
     display: flex;
     padding: 100px 60px;
     align-items: center;
     justify-content: center;
 }
-.tagTwoBox{
+
+.tagTwoBox {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 80px;
     width: 100%;
 }
-.ourServiceContentTitle{
+
+.ourServiceContentTitle {
     white-space: nowrap;
     font-family: inter, sans-serif;
 }
-.ourServiceIcon{
+
+.ourServiceIcon {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.ourServiceImg{
-width: 75%;
+
+.ourServiceImg {
+    width: 75%;
 }
-.ourServiceContent{
+
+.ourServiceContent {
     margin: 0;
     font-family: poppins, sans-serif;
     opacity: 60%;
     font-weight: 400;
+    
+}
+
+@media(max-width: 1485px) {
+    .ourServiceTagContainer {
+        font-size: 16px;
+    }
+
+    .ourServiceTag {
+        flex-direction: column;
+    }
+
+    .tagTwoBox {
+        gap: 140px;
+        
+    }
+    .ourServiceContentTitle{
+        white-space: normal;
+    }
+}
+
+@media(max-width: 1172px) {
+    .tagTwoBox {
+        padding: 90px 50px;
+    }
+
+
+}
+
+@media(max-width: 940px) {
+
+    .ourServiceTagContainer {
+        font-size: 14.5px;
+    }
+
+    .tagTwoBox {
+        gap: 160px;
+        
+    }
+}
+
+@media(max-width: 800px) {
+    .tagTwoBox {
+        padding: 80px 40px;
+    }
+}
+
+@media(max-width: 675px) {
+    .ourServiceTagContainer {
+        font-size: 14.5px;
+    }
+
+    .ourServiceContentTitle {
+        font-size: 14px;
+    }
+
+    .ourServiceContent {
+        text-align: center;
+    }
+
+    .tagTwoBox {
+        gap: 160px;
+        
+    }
+}
+
+@media(max-width: 544px) {
+    .ourServiceTagContainer {
+        font-size: 14.5px;
+    }
+
+    .ourServiceContentTitle {
+        font-size: 14.5px;
+    }
+
+    .ourServiceImgBg {
+        width: 100px;
+        height: 100px;
+        min-height: 100px;
+        min-width: 100px;
+    }
+    .ourServiceContentTitle{
+        white-space: normal;
+    }
 }
