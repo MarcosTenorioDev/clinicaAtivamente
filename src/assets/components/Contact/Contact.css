@@ -1,12 +1,14 @@
 #contactDetails{
     display: flex;
     align-items: center;
-    gap: 5%;
+    gap: 50px;
+    height: max-content;
 }
 
 .contactDetailsLogo{
     width: 220px;
     height: 220px;
+    min-width: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,6 +21,11 @@
     text-align: center;
     font-size: 22px;
     margin-bottom: 30px;
+}
+.contactTwoIconsBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .contactIcons{

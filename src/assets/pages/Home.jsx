@@ -4,6 +4,7 @@ import AboutWork from '../components/AboutWork/AboutWork'
 import OurService from '../components/OurService/OurService'
 import Operation from '../components/Operation/Operation'
 import Contact from '../components/Contact/Contact'
+import Forms from '../components/Forms/Forms'
 
 import './homePage.css'
 import '../../global.css'
@@ -33,6 +34,7 @@ const Home = () => {
 
                 <section className='section' id='contact'>
                     <Contact />
+                    <Forms />
                 </section>
             
             
