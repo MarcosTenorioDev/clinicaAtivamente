@@ -155,4 +155,22 @@
     .ourServiceContentTitle{
         white-space: normal;
     }
+
+    .tagTwoBox{
+        padding: 60px 35px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .tagTwoBox{
+        padding: 60px 15px;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .tagTwoBox{
+        padding: 60px 10px;
+    }
 }
