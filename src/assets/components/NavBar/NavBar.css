@@ -69,14 +69,11 @@
     }
 }
 
-@media (max-width: 920px) {
-  #navBar{
-  width: 97%;
-  }
-}
-
-@media (max-width: 915px) {
+@media (max-width: 921px) {
   #navBar{
   width: 100%;
   }
 }
+
+
+
