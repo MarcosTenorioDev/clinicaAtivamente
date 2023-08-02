@@ -8,49 +8,58 @@ import estresse from '../../images/estresse.svg'
 import inseguranca from '../../images/inseguranca.svg'
 
 
-const Operation = () =>{
-    return(
+const Operation = () => {
+    return (
         <div id='operation'>
             <h2 className='operationTitle'>Principais Atuações</h2>
-            <div className='operationContainer'>   
+            <div className='operationContainer'>
                 <div className='operationCardsContainer'>
-                    <Card 
-                    title='Ansiedade'
-                    content='O transtorno de ansiedade pode ser tratado com abordagens terapêuticas, como a terapia cognitivo-comportamental'
-                    imgSrc={ansiedade}
+                    <Card
+                        title='Ansiedade'
+                        content='Emoção de preocupação, medo e tensão; pode ser normal ao estresse, mas em excesso se torna um transtorno que prejudica a vida diária.'
+                        imgSrc={ansiedade}
                     />
-                    <Card 
-                    title='Depressão'
-                    content='A depressão é um transtorno mental que afeta o humor, os pensamentos e o comportamento de uma pessoa.'
-                    imgSrc={depressao}
+                    <Card
+                        title='Depressão'
+                        content=' Transtorno mental com tristeza persistente e perda de interesse nas atividades diárias.'
+                        imgSrc={depressao}
                     />
-                    <Card 
-                    title='Estresse'
-                    content='xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx'
-                    imgSrc={estresse}
+                    <Card
+                        title='Estresse'
+                        content=' Resposta física e emocional a situações desafiadoras; pode ser útil em doses moderadas, mas em excesso pode causar danos à saúde e ao bem-estar.'
+                        imgSrc={estresse}
                     />
                 </div>
                 <div className='operationCardsContainer'>
-                    <Card 
-                    title='Medo e insegurança'
-                    content='xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx'
-                    imgSrc={inseguranca}
+                    <Card
+                        title='Medo e insegurança'
+                        content='Emoções naturais, medo é reação a ameaças, insegurança é falta de confiança; ambos impactam comportamentos, mas podem ser superados com apoio.'
+                        imgSrc={inseguranca}
                     />
-                    <Card 
-                    title='Burnout'
-                    content='xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx'
-                    imgSrc={burnout}
+                    <Card
+                        title='Burnout'
+                        content='Esgotamento por estresse no trabalho; leva a baixo desempenho e despersonalização; requer cuidados para evitar impactos na saúde e vida pessoal.'
+                        imgSrc={burnout}
                     />
-                    <Card 
-                    title='Outros acolhimentos'
-                    content='xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx'
-                    imgSrc={acolhimento}
+                    <Card
+                        title='Outros acolhimentos'
+                        content={
+                            <p className="outrosAcolhimentosList">
+                                <li>Autocobrança</li>
+                                <li>Procrastinação</li>
+                                <li>Timidez</li>
+                                <li>Insatisfação e Transição de Carreira</li>
+                                <li>Dificuldade para tomar decisões</li>
+                                <li>Autoconhecimento e Desenvolvimento Pessoal</li>
+                            </p>
+                        }
+                        imgSrc={acolhimento}
                     />
                 </div>
             </div>
-            
-            
-        </div> 
+
+
+        </div>
     )
 };
 
