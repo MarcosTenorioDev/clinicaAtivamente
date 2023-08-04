@@ -200,12 +200,8 @@
         justify-content: center;
     }
 
-    
-
-    
-
     .Container .Subcontainer_2 img {
-       display: none;
+        display: none;
     }
 }
 
