@@ -3,13 +3,13 @@ import wpp from '../../images/wpp.svg'
 
 const FloatIcon = () =>{
     return(
-      <div class="floating-icon">
+      <div className="floating-icon">
         <a
-          class="floating-icon__whatsapp pulse-whatsapp"
+          className="floating-icon__whatsapp pulse-whatsapp"
           href="https://wa.me/5581999157176"
           target="_blank"
         >
-          <i class="fa-brands fa-whatsapp"><img src={wpp} alt="botão flutuante para enviar mensagem no whatsapp"/></i>
+          <i className="fa-brands fa-whatsapp"><img src={wpp} alt="botão flutuante para enviar mensagem no whatsapp"/></i>
         </a>
       </div>
     )
