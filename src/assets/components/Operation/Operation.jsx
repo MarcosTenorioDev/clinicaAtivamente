@@ -38,14 +38,14 @@ const Operation = () => {
     {
       title: "Outros acolhimentos",
       content: (
-        <p>
+        <ul>
           <li>Autocobrança</li>
           <li>Procrastinação</li>
           <li>Timidez</li>
           <li>Insatisfação e Transição de Carreira</li>
           <li>Dificuldade para tomar decisões</li>
           <li>Autoconhecimento e Desenvolvimento Pessoal</li>
-        </p>
+        </ul>
       ),
       imgSrc: acolhimento,
     },
