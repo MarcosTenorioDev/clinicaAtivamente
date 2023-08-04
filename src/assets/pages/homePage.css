@@ -37,6 +37,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 950px){
