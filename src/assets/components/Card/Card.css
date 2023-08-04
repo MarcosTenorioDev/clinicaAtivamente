@@ -26,3 +26,14 @@
     font-family: inter, sans-serif;
     text-align: justify;
 }
+
+@media(max-width:370px){
+    .card{
+        width: 210px;
+        height: 250px;
+    }
+
+    .cardContent{
+        font-size: 12px;
+    }
+}
