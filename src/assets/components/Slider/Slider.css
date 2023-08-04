@@ -23,4 +23,8 @@
       
 }
 
-
+ @media (max-width: 335px){
+  .swiper-3d{
+    perspective: 1000px;
+  }
+}

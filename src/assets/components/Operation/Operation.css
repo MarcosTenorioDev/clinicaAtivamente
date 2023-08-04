@@ -5,6 +5,8 @@
     justify-content: center;
     gap: 80px;
     margin-bottom: 100px;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
 .operationCardsContainer {
@@ -40,5 +42,7 @@
       }
     #operation{
         gap: 0px;
+        overflow: hidden;
+        padding: 0px;
     }
 }

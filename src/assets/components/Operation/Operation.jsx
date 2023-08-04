@@ -38,7 +38,7 @@ const Operation = () => {
     {
       title: "Outros acolhimentos",
       content: (
-        <p className="outrosAcolhimentosList">
+        <p>
           <li>Autocobrança</li>
           <li>Procrastinação</li>
           <li>Timidez</li>
