@@ -1,6 +1,6 @@
 import '../../components/Introduction/Introduction.css'
 import Cliente1 from '../../images/Img_Introduction.webp'
-import logo from '../../images/logo.webp'
+import logoVetor from '../../images/logoVetor.svg'
 
 const Introduction = () => {
     return (
@@ -13,7 +13,7 @@ const Introduction = () => {
                                 <h3>NÚCLEO MULTIDISCIPLINAR</h3>
                             </div>
                         </div>
-                        <img src={logo} alt="" height={150} />
+                        <img src={logoVetor} alt="" height={150} />
                     </div>
                     <div className='Text_logo2'>
                         <div className='Text_1'>

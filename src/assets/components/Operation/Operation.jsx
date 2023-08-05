@@ -38,7 +38,7 @@ const Operation = () => {
     {
       title: "Outros acolhimentos",
       content: (
-        <ul>
+        <ul className="welcomeCard">
           <li>Autocobrança</li>
           <li>Procrastinação</li>
           <li>Timidez</li>

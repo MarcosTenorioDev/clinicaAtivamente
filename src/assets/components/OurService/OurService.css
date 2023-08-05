@@ -71,7 +71,7 @@
     font-family: poppins, sans-serif;
     opacity: 60%;
     font-weight: 400;
-    
+    font-size: 13px;
 }
 
 @media(max-width: 1485px) {
@@ -134,6 +134,9 @@
     .tagTwoBox {
         gap: 160px;
         
+    }
+    .ourServiceTagContainer{
+        padding: 50px 40px;
     }
 }
 
