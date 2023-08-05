@@ -1,4 +1,4 @@
-import logo from "../../images/logo.webp";
+import logo from "../../images/logoVetor.svg";
 import "../Contact/Contact.css";
 import Icons from "../Icons/Icons";
 import phone from "../../images/phone.svg";

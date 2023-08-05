@@ -16,7 +16,10 @@ const Home = () => {
     return(
         <div id='homePage'>
             <FloatIcon />
-            <NavBar />
+            <div className="backgroundNavbar">
+                <NavBar />  
+            </div>
+            
             <div className='backgroundSection'>
                 <header className='section' id='header'>
                     <Introduction/>
@@ -27,6 +30,7 @@ const Home = () => {
                         <About />
                     </section> 
                 </div>
+               
             <div className='backgroundSection'>
                 <section className='section' id='aboutWork'>
                     <AboutWork />
@@ -41,6 +45,7 @@ const Home = () => {
                     <Contact />
                     <Forms />
                 </section>
+            
             
             
         </div>
