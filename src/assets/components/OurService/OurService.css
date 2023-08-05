@@ -103,12 +103,15 @@
 @media(max-width: 940px) {
 
     .ourServiceTagContainer {
-        font-size: 14.5px;
+        font-size: 14px;
     }
 
     .tagTwoBox {
         gap: 160px;
         
+    }
+    .ourServiceContent{
+        font-size: 12px;
     }
 }
 
@@ -120,7 +123,7 @@
 
 @media(max-width: 675px) {
     .ourServiceTagContainer {
-        font-size: 14.5px;
+        font-size: 14px;
     }
 
     .ourServiceContentTitle {
@@ -131,22 +134,22 @@
         text-align: center;
     }
 
-    .tagTwoBox {
-        gap: 160px;
-        
-    }
+    
     .ourServiceTagContainer{
         padding: 50px 40px;
     }
+    .tagTwoBox {
+        gap: 170px;
+    }
 }
 
-@media(max-width: 544px) {
+@media(max-width: 590px) {
     .ourServiceTagContainer {
-        font-size: 14.5px;
+        font-size: 14px;
     }
 
     .ourServiceContentTitle {
-        font-size: 14.5px;
+        font-size: 14px;
     }
 
     .ourServiceImgBg {
@@ -161,6 +164,10 @@
 
     .tagTwoBox{
         padding: 60px 35px;
+        gap: 160px;
+    }
+    .ourServiceContent{
+        font-size: 11px;
     }
 }
 
@@ -176,4 +183,5 @@
     .tagTwoBox{
         padding: 60px 10px;
     }
+
 }
