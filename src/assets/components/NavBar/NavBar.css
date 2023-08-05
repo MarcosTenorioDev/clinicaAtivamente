@@ -19,12 +19,15 @@
     font-weight: 600;
     font-size: 18px;
   }
+  #menu{
+    display: none;
+  }
   
   #menu i {
     color: grey;
   }
   
-  @media (max-width: 650px) {
+  @media (max-width: 950px) {
     #navLinksUl {
       display: flex;
       flex-direction: column;
@@ -32,7 +35,7 @@
       align-items: flex-start;
       position: fixed;
       right: -300px;
-      top: 65px;
+      top: 59px;
       width: 200px;
       height: 100vh;
       background-color: white;
@@ -57,12 +60,6 @@
       cursor: pointer;
     }
   }
-
-  @media (min-width: 650px) {
-    #menu {
-      display: none;
-    }
-}
 
 @media (max-width: 921px) {
   #navBar{
