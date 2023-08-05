@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../images/logo.webp';
+import logo from '../../images/logoVetor.svg';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import '../../components/NavBar/NavBar.css';
 
@@ -13,7 +13,7 @@ const NavBar = () => {
     return (
         <div id="navBar">
             <div className="logo">
-                <img src={logo} alt="logo da Clinica Ativamente" height={40} />
+                <img src={logo} alt="logo da Clinica Ativamente" height={35} />
             </div>
             <div className={`navLinks ${active ? 'active' : ''}`} id="navLinksUl">
                 <a href="#">

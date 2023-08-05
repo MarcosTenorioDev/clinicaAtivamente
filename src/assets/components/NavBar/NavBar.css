@@ -3,12 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 55px;
-    position: fixed;
-    top: 0;
     width: 100%;
-    background-color: rgba(235, 232, 232, 0.876);
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.185);
-    z-index: 999;
     max-width: 1980px;
   }
   
