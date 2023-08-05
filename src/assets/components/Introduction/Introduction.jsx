@@ -13,7 +13,7 @@ const Introduction = () => {
                                 <h3>NÚCLEO MULTIDISCIPLINAR</h3>
                             </div>
                         </div>
-                        <img src={logoVetor} alt="" height={150} />
+                        <img src={logoVetor} alt="" className='logoVetor'/>
                     </div>
                     <div className='Text_logo2'>
                         <div className='Text_1'>
@@ -28,10 +28,10 @@ const Introduction = () => {
                     </div>
                 </div>
                 <div className="botoes">
-                    <div className="btn_1">
+                    <div className="btnHeader">
                         <a href="#">Agende sua consulta</a>
                     </div>
-                    <div className="btn_2">
+                    <div className="btnHeader">
                         <a href="#">Contato</a></div>
                 </div>
             </div>
