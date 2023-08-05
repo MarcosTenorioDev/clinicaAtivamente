@@ -23,7 +23,7 @@ const About = () => {
 
             <div className="aboutContent">
                 <div className="boxContentLeft">
-                    <div className="aboutContentLeft" data-aos="fade-right" >
+                    <div className="aboutContentLeft"  data-aos="fade-up" >
                         <div className="imgContainer">
                             <img src={cliente1} alt="Imagem" />
                         </div>
@@ -32,7 +32,7 @@ const About = () => {
                             <p className='oi'>Crp: xxxx-xxx</p>
                         </div>
                     </div>
-                    <div className="aboutContentRigth" data-aos="fade-left">
+                    <div className="aboutContentRigth"  data-aos="fade-up">
                         <p>O Dr. Cleyson Monteiro é um profissional de psicologia altamente respeitado e dedicado, cujo trabalho tem        transformado positivamente a vida de muitas pessoas. Sua abordagem terapêutica é baseada em valores como empatia genuína, compreensão profunda e um olhar atento às necessidades emocionais individuais de cada paciente.
 
                             Com uma personalidade acolhedora e descontraída, o Dr. Cleyson cria um ambiente seguro e confidencial em suas sessões, o que permite que seus pacientes se sintam à vontade para expressar seus pensamentos e sentimentos mais íntimos sem julgamentos. Essa conexão e respeito mútuo entre ele e seus pacientes são fundamentais para o progresso emocional e a transformação positiva que ocorre em seu consultório.
@@ -46,7 +46,7 @@ const About = () => {
                 <div className="aboutSpaceTwo"></div>
 
                 <div className="boxContentRigth">
-                    <div className="aboutContentLeft" data-aos="fade-left">
+                    <div className="aboutContentLeft"  data-aos="fade-up">
                         <div className="imgContainer">
                             <img className='imgCliente' src={cliente2} alt="Imagem" />
                         </div>
@@ -55,7 +55,7 @@ const About = () => {
                             <p>Crp: xxxx-xxx</p>
                         </div>
                     </div>
-                    <div className="aboutContentRight" data-aos="fade-right">
+                    <div className="aboutContentRight"  data-aos="fade-up">
                         <p>Conheça a Dra. Márcia, uma psicóloga excepcional que encanta seus pacientes com sua abordagem responsável e envolvente. Com anos de experiência, ela domina a arte de criar consultas divertidas e interativas, tornando cada sessão única e enriquecedora.
 
                             Sua dedicação à profissão reflete-se em sua capacidade de ouvir atentamente, compreendendo as necessidades individuais de cada pessoa que busca seu auxílio. Ela constrói uma relação de confiança com seus pacientes, oferecendo um espaço seguro e acolhedor para expressar seus sentimentos e desafios.
