@@ -1,9 +1,13 @@
 import "./AboutWork.css";
+import 'aos/dist/aos.css'
 
 const AboutWork = () => {
+
   return (
     <>
-      <div className="aboutWorkContainer">
+      <div className="aboutWorkContainer" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <div className="titleContainer">
           <p className="lineWork"></p>
           <h2 className="aboutWorkTitle">Como trabalhamos</h2>

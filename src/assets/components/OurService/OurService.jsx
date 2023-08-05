@@ -15,12 +15,12 @@ const OurService = () => {
         <div className="tagTwoBox">
           <Tag
             title="Atendimento Personalizado"
-            text="xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxx"
-            imageSrc={atendimentoSvg}
+            text="Cada membro da nossa equipe é incentivado a conhecer profundamente nossos clientes, suas preferencias e historico. "
+            imageSrc={atendimentoSvg} 
           />
           <Tag
             title="Cuidado e acolhimento"
-            text="xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxx"
+            text="Cultivamos os valores do cuidado e acolhimento como pilares fundamentais em todas as nossas interações com os clientes. "
             imageSrc={coracaoSvg}
           />
         </div>
@@ -28,12 +28,12 @@ const OurService = () => {
         <div className="tagTwoBox">
         <Tag
           title='Confiança e sigilo'
-          text='xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxx'
+          text='Quando se trata de sigilo, levamos a sério o compromisso de proteger as informações pessoais dos nossos clientes.'
           imageSrc={confiancaSvg}
         />
         <Tag
           title='Terapia-Cognitivo-Comportamental'
-          text='xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxx'
+          text='Abordagem terapêutica interligando pensamentos, emoções e comportamentos para uma melhor experiência de vida'
           imageSrc={cerebro}
         />
         </div>
