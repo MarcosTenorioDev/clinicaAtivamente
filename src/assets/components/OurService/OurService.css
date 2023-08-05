@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 125px;
     width: 100%;
     gap: 25px;
 }
@@ -47,7 +46,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
     width: 100%;
 }
 
@@ -75,28 +73,24 @@
 }
 
 @media(max-width: 1485px) {
-    .ourServiceTagContainer {
-        font-size: 16px;
-    }
-
-    .ourServiceTag {
-        flex-direction: column;
-    }
-
     .tagTwoBox {
-        gap: 140px;
-        
+        gap: 40px;
     }
-    .ourServiceContentTitle{
-        white-space: normal;
+    .ourServiceTag{
+        padding: 0px 20px;
     }
+
 }
 
 @media(max-width: 1172px) {
     .tagTwoBox {
-        padding: 90px 50px;
+        padding: 0;
     }
-
+    
+    .ourServiceTag {
+        flex-direction: column;
+        padding: 0;
+    }
 
 }
 
@@ -107,7 +101,8 @@
     }
 
     .tagTwoBox {
-        gap: 160px;
+        gap: 40px;
+        height: 500px;
         
     }
     .ourServiceContent{
@@ -116,40 +111,40 @@
 }
 
 @media(max-width: 800px) {
+    .ourServiceTagContainer{
+        padding: 30px 0;
+    }
     .tagTwoBox {
-        padding: 80px 40px;
+        padding: 0;
+        height: 550px;
+        justify-content: center;
+        min-width: 50%;
     }
 }
 
 @media(max-width: 675px) {
     .ourServiceTagContainer {
         font-size: 14px;
+        gap: 20px;
     }
 
     .ourServiceContentTitle {
         font-size: 14px;
     }
 
-    .ourServiceContent {
-        text-align: center;
-    }
-
-    
-    .ourServiceTagContainer{
-        padding: 50px 40px;
-    }
-    .tagTwoBox {
-        gap: 170px;
-    }
 }
 
 @media(max-width: 590px) {
     .ourServiceTagContainer {
         font-size: 14px;
     }
-
+    .ourServiceTag{
+        gap: 0;
+        height: 300px;
+    }
     .ourServiceContentTitle {
         font-size: 14px;
+        padding: 10px 0px 0px 0px;
     }
 
     .ourServiceImgBg {
@@ -162,26 +157,7 @@
         white-space: normal;
     }
 
-    .tagTwoBox{
-        padding: 60px 35px;
-        gap: 160px;
-    }
     .ourServiceContent{
         font-size: 11px;
     }
-}
-
-@media(max-width: 450px) {
-
-    .tagTwoBox{
-        padding: 60px 15px;
-    }
-}
-
-@media(max-width: 450px) {
-
-    .tagTwoBox{
-        padding: 60px 10px;
-    }
-
 }
