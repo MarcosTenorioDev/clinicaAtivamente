@@ -58,6 +58,26 @@
     cursor: pointer;
     margin-top: 20px;
   }
+  .submitButton:hover {
+   background-color: #e2dfdf;
+   box-shadow: 2px 4px 2px 0px rgba(0, 0, 0, 0.6);
+
+  }
+  .submitButton {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #E94721;
+    box-shadow: 2px 4px 2px 0px rgba(0, 0, 0, 0.25);
+    width: 120px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 20px;
+  }
   
   @media(max-width:700px){
       .emailHeaderTitle{

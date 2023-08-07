@@ -13,6 +13,10 @@
     list-style: none;
   }
   
+#navLinksUl a{
+  cursor: pointer;
+}
+
   #navLinksUl a li {
     color: #878685;
     font-family: 'Inter';
