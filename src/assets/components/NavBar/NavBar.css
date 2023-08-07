@@ -23,6 +23,11 @@
   font-weight: 600;
   font-size: 18px;
 }
+#navLinksUl a li:hover{
+  color: #000;
+  font-size: 20px;
+  transition: 0.8s;
+}
 
 #menu {
   display: none;
