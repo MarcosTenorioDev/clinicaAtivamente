@@ -13,44 +13,49 @@ import Introduction from '../components/Introduction/Introduction'
 
 
 const Home = () => {
-    return(
+    return (
         <div id='homePage'>
             <FloatIcon />
             <div className="backgroundNavbar">
-                <NavBar />  
+                <NavBar />
             </div>
-            
+
             <div className='backgroundSection'>
                 <header className='section' id='header'>
-                    <Introduction/>
+                    <Introduction />
                 </header>
             </div>
-                <div className='backgroundAbout'>
-                    <section className='section' id='about'>
+            <div className='backgroundAbout'>
+                <section className='section' id='about'>
+                    <section id='quemSomos'>
                         <About />
-                    </section> 
-                </div>
-               
+                    </section>
+                </section>
+            </div>
+
             <div className='backgroundSection'>
                 <section className='section' id='aboutWork'>
-                    <AboutWork />
+                    <section id="comoTrabalhamos">
+
+                        <AboutWork />
+                    </section>
                     <OurService />
                     <Operation />
                 </section>
             </div>
-                
 
-                <h2 className='contactTitle'>Entre em contato</h2>
-                <section className='section' id='contact'>
+
+            <h2 className='contactTitle'>Entre em contato</h2>
+            <section className='section' id='contact'>
                     <Contact />
-                    <Forms />
-                </section>
-            
-            
-            
+                <Forms />
+            </section>
+
+
+
         </div>
-        
-            
+
+
     )
 }
 

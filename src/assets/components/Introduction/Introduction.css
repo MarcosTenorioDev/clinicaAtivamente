@@ -77,6 +77,8 @@
   font-size: 1.2rem;
   border-radius: 7px;
 }
+
+
 .btnHeader a {
   color: #eeffff;
 }
@@ -87,6 +89,16 @@
 .btnHeader:nth-child(2) {
   background-color: #e94721;
 }
+
+.btnHeader:first-child:hover {
+  background-color: #2fa5a3;
+}
+.btnHeader:nth-child(2):hover {
+  background-color: #aa3217;
+}
+
+
+
 
 .Container .Subcontainer_2 img {
   height: 80vh;
