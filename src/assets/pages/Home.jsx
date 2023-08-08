@@ -30,7 +30,7 @@ const Home = () => {
                         <About />
                     </section> 
                 </div>
-               
+                
             <div className='backgroundSection'>
                 <section className='section' id='aboutWork'>
                     <AboutWork />

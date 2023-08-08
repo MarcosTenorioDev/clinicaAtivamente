@@ -23,20 +23,20 @@ const Contact = () => {
               <Icons
                 imgIcon={phone}
                 title="Ligue para mim"
-                desc="+55 (81) 99999-9999"
+                desc="+55 (81) 9663-5917"
               />
 
               <Icons 
               imgIcon={email} 
               title="Email" 
-              desc="Psicólogo@gmail.com" 
+              desc="atvmt4.0@gmail.com" 
               />
             </div>
             <div className="contactTwoIconsBox">
               <Icons
                 imgIcon={location}
                 title="Localização"
-                desc="Recife-Pe"
+                desc="Olinda-Pe"
               />
 
               <Icons 
