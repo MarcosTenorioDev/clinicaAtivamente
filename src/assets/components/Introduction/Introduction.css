@@ -77,6 +77,8 @@
   font-size: 1.2rem;
   border-radius: 7px;
 }
+
+
 .btnHeader a {
   color: #eeffff;
 }
@@ -88,8 +90,19 @@
   background-color: #e94721;
 }
 
+.btnHeader:first-child:hover {
+  background-color: #2fa5a3;
+}
+.btnHeader:nth-child(2):hover {
+  background-color: #aa3217;
+}
+
+
+
+
 .Container .Subcontainer_2 img {
-  height: 700px;
+  height: 80vh;
+  max-height: 700px;
   border-radius: 346.599px;
   border: 3px solid #0abbb5;
 }
@@ -122,8 +135,6 @@
   
     .Container .Subcontainer_2 img {
       height: 550px;
-      border-radius: 346.599px;
-      border: 3px solid #0abbb5;
     }
 }
   
