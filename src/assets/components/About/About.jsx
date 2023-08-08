@@ -56,14 +56,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="aboutContentRight"  data-aos="fade-up">
-                        <p>Conheça a Dra. Márcia, uma psicóloga excepcional que encanta seus pacientes com sua abordagem responsável e envolvente. Com anos de experiência, ela domina a arte de criar consultas divertidas e interativas, tornando cada sessão única e enriquecedora.
-
-                            Sua dedicação à profissão reflete-se em sua capacidade de ouvir atentamente, compreendendo as necessidades individuais de cada pessoa que busca seu auxílio. Ela constrói uma relação de confiança com seus pacientes, oferecendo um espaço seguro e acolhedor para expressar seus sentimentos e desafios.
-
-                            O sigilo é um valor inegociável para a Dra. Márcia. Ela trata todas as informações compartilhadas durante as sessões com o mais alto nível de confidencialidade, garantindo que seus pacientes se sintam confortáveis e protegidos ao compartilhar suas histórias mais íntimas.
-
-                            Além de ser uma profissional exemplar, a Dra. Márcia é reconhecida por sua empatia e sensibilidade para lidar com questões emocionais complexas.
-                        </p>
+                        <p>Conheça a Dra. Márcia Karine, uma psicóloga excepcional que encanta seus pacientes com sua abordagem centrada na pessoa, é responsável e envolvente. Com 19 anos de experiência em Psicologia, é Neuropsicopedagoga, ela ainda domina a arte de criar consultas divertidas e interativas, com o público infantil. Para os adolescentes torna cada sessão única e enriquecedora. Nos atendimentos com os Adultos, a escuta e o acolhimento promovem momentos de crescimento e valorização a pessoa. Sua dedicação à profissão reflete-se em sua capacidade de ouvir atentamente, compreendendo as necessidades individuais de cada pessoa que busca seu auxílio. Ela constrói uma relação de confiança com seus pacientes, oferecendo um espaço seguro e acolhedor para expressar seus sentimentos e desafios. O sigilo é um valor inegociável para a Dra. Márcia. Ela trata todas as informações compartilhadas durante as sessões com o mais alto nível de confidencialidade, garantindo que seus pacientes se sintam confortáveis e protegidos ao compartilhar suas histórias mais íntimas. Além de ser uma profissional exemplar, a Dra. Márcia é reconhecida por sua empatia e sensibilidade para lidar com questões emocionais complexas, além dos atendimentos clínicos, Ela é colunista na Rádio Nova Brasil FM, onde todas as quartas apresenta o quadro Respire e Pense – no programa Mesa Pra 2. Entre um atendimento e outro ainda exerce o cargo de Coordenadora dos Cursos de Psicologia e Pedagogia da Uninassau Paulista. A Dra. Márcia Karine se dedica ainda a trabalhos com crianças autistas, para aumentar seus conhecimentos tem cursos em ABA e TEACCH.</p>
                     </div>
 
                 </div>
