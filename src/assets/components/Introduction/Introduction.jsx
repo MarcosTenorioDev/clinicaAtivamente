@@ -28,11 +28,9 @@ const Introduction = () => {
                     </div>
                 </div>
                 <div className="botoes">
-                    <div className="btnHeader">
-                        <a href="https://calendly.com/joao-00000847948/coons" target='blank'>Agende sua consulta</a>
+                    <div >
+                        <a href="https://calendly.com/joao-00000847948/coons" className="btnHeader" target='blank'>Agende sua consulta</a>
                     </div>
-                    <div className="btnHeader">
-                        <a href="#">Contato</a></div>
                 </div>
             </div>
 
