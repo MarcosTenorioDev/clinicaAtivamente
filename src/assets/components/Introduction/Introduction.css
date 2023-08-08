@@ -70,7 +70,9 @@
   margin-top: 20px;
 }
 
-.btnHeader {
+
+.btnHeader{
+  color: #eeffff;
   padding: 15px 25px 17px 25px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -78,25 +80,13 @@
   border-radius: 7px;
 }
 
-
-.btnHeader a {
-  color: #eeffff;
-}
-
 .btnHeader:first-child {
   background-color: #3acac8;
-}
-.btnHeader:nth-child(2) {
-  background-color: #e94721;
 }
 
 .btnHeader:first-child:hover {
   background-color: #2fa5a3;
 }
-.btnHeader:nth-child(2):hover {
-  background-color: #aa3217;
-}
-
 
 
 
