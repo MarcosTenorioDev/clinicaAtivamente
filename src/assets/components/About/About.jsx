@@ -52,7 +52,7 @@ const About = () => {
                         </div>
                         <div className="textContainer">
                             <p>Marcia Karine Costa</p>
-                            <p>Crp: xxxx-xxx</p>
+                            <p>Crp: 02/12346</p>
                         </div>
                     </div>
                     <div className="aboutContentRight"  data-aos="fade-up">
