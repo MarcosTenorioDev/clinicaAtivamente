@@ -1,24 +1,24 @@
 ## 💻 Web
 <div style="display: flex; ">
-<p>
+<div>
   <img src=".github/Home - Web.png" alt="Demonstração do projeto" width="50%" />
-</p>
-<p>
+</div>
+<div>
   <img src=".github/Quem somos - Web.png" alt="Demonstração do projeto" width="50%" />
-</p>
+</div>
 </div>
 
 <div style="display: flex; gap:10px">
-<p>
+<div>
 <img src=".github/Como trabalhamos - Web.png" alt="Demonstração do projeto" width="50%" />
-</p>
-<p>
-<img src=".github/Principais Atuações - Web.png" alt="Demonstração do projeto" width="50%" />
-</p>
 </div>
-<p>
+<div>
+<img src=".github/Principais Atuações - Web.png" alt="Demonstração do projeto" width="50%" />
+</div>
+</div>
+<div>
  <img src=".github/Contato -Web.png" alt="Demonstração do projeto" width="50%" />
-</p>
+</div>
 
 
 
