@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../Forms/Forms.css";
+import emailJs from '@emailjs/browser'
 
 const Forms = () => {
   const [name, setName] = useState("");
@@ -11,12 +12,25 @@ const Forms = () => {
     event.preventDefault();
 
     const templateParams = {
-      from_name: name,
-      subject: subject,
-      message: message,
-      email: email,
-    };
+        from_name: name,
+        subject: subject,
+        message: message,
+        email: email,
+    }
+
+    emailJs.send("service_bfeppr8", "template_8o6lsin", templateParams, "VlowrCDZCRuISZQtr")
+    .then((response) => {
+        alert('email enviado com sucesso')
+        setName('');
+        setEmail('');
+        setMessage('');
+        setSubject('')
+    }, (err) => {
+        console.log('ERRO:', err)
+        alert('Erro inesperado. Por favor, tente novamente')
+    })
   };
+
   return (
     <>
       <div className="contactContainer"> 
