@@ -29,7 +29,7 @@ const Introduction = () => {
                 </div>
                 <div className="botoes">
                     <div >
-                        <a href="https://calendly.com/joao-00000847948/coons" className="btnHeader" target='blank'>Agende sua consulta</a>
+                        <a href="https://calendly.com/clinicaatv/consulta-de-psicologia" className="btnHeader" target='blank'>Agende sua consulta</a>
                     </div>
                 </div>
             </div>
