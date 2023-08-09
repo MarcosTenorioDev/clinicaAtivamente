@@ -15,10 +15,12 @@
     cursor: pointer;
 }
 .iconText{
-    white-space: nowrap;
+    font-family: poppins, sans-serif;
+    text-align: center;
 }
 .contactTwoIconsBox{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: space-between;
 }
