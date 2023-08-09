@@ -46,11 +46,11 @@
     position: fixed;
     right: -300px;
     top: 59px;
-    width: 200px;
+    width: 230px;
     height: 100vh;
     background-color: white;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.56);
-    padding: 40px 0 0 20px;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.185);
+    padding: 10px 0 0 20px;
   }
 
   #navLinksUl.active {
