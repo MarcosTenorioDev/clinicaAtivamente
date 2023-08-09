@@ -40,6 +40,7 @@
     padding: 100px 60px;
     align-items: center;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .tagTwoBox {
@@ -47,6 +48,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    gap: 30px;
 }
 
 .ourServiceContentTitle {

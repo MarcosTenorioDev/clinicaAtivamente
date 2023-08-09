@@ -96,6 +96,6 @@
 
   @media(max-width: 950px){
     .emailForm{
-      padding: 0;
+      padding: 0px 20px;
     }
   }

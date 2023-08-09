@@ -70,7 +70,9 @@
   margin-top: 20px;
 }
 
-.btnHeader {
+
+.btnHeader{
+  color: #eeffff;
   padding: 15px 25px 17px 25px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -78,26 +80,13 @@
   border-radius: 7px;
 }
 
-
-.btnHeader a {
-  color: #eeffff;
-}
-
 .btnHeader:first-child {
-  background-color: #3acac8;
-}
-.btnHeader:nth-child(2) {
   background-color: #e94721;
 }
 
 .btnHeader:first-child:hover {
-  background-color: #2fa5a3;
+  background-color: #cc3b1bf8;
 }
-.btnHeader:nth-child(2):hover {
-  background-color: #aa3217;
-}
-
-
 
 
 .Container .Subcontainer_2 img {
@@ -186,6 +175,9 @@
     font-size: 0.9rem;
     border-radius: 7px;
   }
+  .ourServiceTagContainer{
+    padding: 0px 20px;
+  }
 }
 
 @media (max-width: 410px){
@@ -217,6 +209,9 @@
         font-weight: 600;
         font-size: 0.8rem;
         border-radius: 7px;
+      }
+      .ourServiceTagContainer{
+        padding: 0px 10px;
       }
 }
 

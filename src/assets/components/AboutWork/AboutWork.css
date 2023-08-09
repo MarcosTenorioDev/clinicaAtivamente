@@ -10,7 +10,7 @@
 .titleContainer{
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 20px;
     padding: 0px 0px 35px;
     width: 100%;
 }
@@ -48,6 +48,6 @@
     .titleContainer{
 
         justify-content: center;
-
+        gap: 10px;
     }
 }
