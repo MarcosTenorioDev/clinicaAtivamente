@@ -81,13 +81,12 @@
 }
 
 .btnHeader:first-child {
-  background-color: #3acac8;
+  background-color: #e94721;
 }
 
 .btnHeader:first-child:hover {
-  background-color: #2fa5a3;
+  background-color: #cc3b1bf8;
 }
-
 
 
 .Container .Subcontainer_2 img {
@@ -176,6 +175,9 @@
     font-size: 0.9rem;
     border-radius: 7px;
   }
+  .ourServiceTagContainer{
+    padding: 0px 20px;
+  }
 }
 
 @media (max-width: 410px){
@@ -207,6 +209,9 @@
         font-weight: 600;
         font-size: 0.8rem;
         border-radius: 7px;
+      }
+      .ourServiceTagContainer{
+        padding: 0px 10px;
       }
 }
 
