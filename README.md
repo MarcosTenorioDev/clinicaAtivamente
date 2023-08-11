@@ -64,5 +64,6 @@ Esta é a Landing Page para uma dupla psicólogos, onde você encontrará inform
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - REACT.JS
-- CSS
+- SWIPER JS
+- EMAIL JS
 
