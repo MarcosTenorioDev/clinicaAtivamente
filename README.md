@@ -34,19 +34,19 @@
     <tbody>
         <tr>
             <td>
-                  <img src=".github/Home - Mobile.png" alt="Demonstração do projeto"  />
+                <img src=".github/Home - Mobile.png" alt="Demonstração do projeto"  />
             </td>
             <td>
-                  <img src=".github/Quem Somos - Mobile.png" alt="Demonstração do projeto"  />
+                <img src=".github/Quem Somos - Mobile.png" alt="Demonstração do projeto"  />
             </td>
             <td>
-                  <img src=".github/Como trabalhamos - Mobile.png" alt="Demonstração do projeto"  />
+                <img src=".github/Como trabalhamos - Mobile.png" alt="Demonstração do projeto"  />
             </td>
             <td>
-                  <img src=".github/Principais Atuações - Mobile.png" alt="Demonstração do projeto"  />
+                <img src=".github/Principais Atuações - Mobile.png" alt="Demonstração do projeto"  />
             </td>  
             <td>
-            <img src=".github/Contato - Mobile.png" alt="Demonstração do projeto"  />
+                <img src=".github/Contato - Mobile.png" alt="Demonstração do projeto"  />
             </td>  
         </tr>
     </tbody>
