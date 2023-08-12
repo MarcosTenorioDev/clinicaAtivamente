@@ -42,7 +42,7 @@
     justify-content: center;
 }
 .backgroundNavbar{
-    background-color: rgba(235, 232, 232, 0.876);
+    background-color: white;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.185);
     width: 100vw;
     display: flex;
