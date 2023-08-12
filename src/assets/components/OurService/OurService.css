@@ -115,6 +115,7 @@
 @media(max-width: 800px) {
     .ourServiceTagContainer{
         padding: 30px 0;
+        margin: 50px 0px;
     }
     .tagTwoBox {
         padding: 0;
