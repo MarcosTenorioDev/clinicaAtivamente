@@ -5,7 +5,7 @@ import cliente2 from '../../images/cliente2.webp'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import linkedin from '../../images/linkedin.webp'
-import lattes from '../../images/lattes.webp'
+import lattes1 from '../../images/lattes1.webp'
 
 const About = () => {
     useEffect(() => {
@@ -37,7 +37,7 @@ const About = () => {
                                     <a href='https://www.linkedin.com/in/cleyson-monteiro-651a749b/?originalSubdomain=br' target='_blank'><img src={linkedin} alt="linkedin" /></a>
                                 </div>
                                 <div className="lattes">
-                                   <a href=' http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234793E1&tokenCaptchar=03AGdBq27vz56TRCosL0CcxqeGmqJl197frFu543lo4wYjutnNyO3amnWMYN1fjsvHWpHWmFh-TJiV96fSvuox9GtFytUhAPjfJYJgO1RNQZDq7XFMtIub8Tsuf_vacQAdmxQ10ocUDC4wfYxPjRlH05n6qD3cWTgtck6BRRAyS1f3Qb7LZ_CGB6PIh4RqgJGr2u0Ap1n0-DGaqFtDpv_r_en6xg9RjIIh55we1W8LotPXR9pG7dhZ7oBksIOyFh28BJ8OtM4iIw4fFl0wjIZB8s92N933UXyfMGvcH3ODn9zMMREldIfb0dE0YdgNufCqtWCjfnm5oXnYIH9sHupa2kmwfU3v0P1GS0Fs9Mi9nhdCAKfZPz70e7NApzRgWHZ9exSybDt7ASFKgTUuyVUr1yXMnKMiH0JrieVMh7mu-EGEhXH21k-Ycz-3X4lgzvTwMt3qnIrLjNHvjWpj-ApU9z6Z2Pmv7Cn2OQ' target='_blank'> <img src={lattes} alt="lattes" /></a>
+                                   <a href=' http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4234793E1&tokenCaptchar=03AGdBq27vz56TRCosL0CcxqeGmqJl197frFu543lo4wYjutnNyO3amnWMYN1fjsvHWpHWmFh-TJiV96fSvuox9GtFytUhAPjfJYJgO1RNQZDq7XFMtIub8Tsuf_vacQAdmxQ10ocUDC4wfYxPjRlH05n6qD3cWTgtck6BRRAyS1f3Qb7LZ_CGB6PIh4RqgJGr2u0Ap1n0-DGaqFtDpv_r_en6xg9RjIIh55we1W8LotPXR9pG7dhZ7oBksIOyFh28BJ8OtM4iIw4fFl0wjIZB8s92N933UXyfMGvcH3ODn9zMMREldIfb0dE0YdgNufCqtWCjfnm5oXnYIH9sHupa2kmwfU3v0P1GS0Fs9Mi9nhdCAKfZPz70e7NApzRgWHZ9exSybDt7ASFKgTUuyVUr1yXMnKMiH0JrieVMh7mu-EGEhXH21k-Ycz-3X4lgzvTwMt3qnIrLjNHvjWpj-ApU9z6Z2Pmv7Cn2OQ' target='_blank'> <img src={lattes1} alt="lattes" /></a>
                                 </div>
                             </div>
                         </div>
