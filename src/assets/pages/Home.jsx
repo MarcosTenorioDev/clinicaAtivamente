@@ -10,7 +10,6 @@ import FloatIcon from '../components/FloatIcon/FloatIcon'
 import './homePage.css'
 import '../../global.css'
 import Introduction from '../components/Introduction/Introduction'
-import OurClinics from '../components/OurClinics/OurClinics'
 
 
 const Home = () => {
@@ -36,9 +35,6 @@ const Home = () => {
 
             <div className='backgroundSection'>
                 <section className='section' id='aboutWork'>
-                    <section id="clinicas">
-                        <OurClinics />
-                    </section>
                     <section id="comoTrabalhamos">
                         <AboutWork />
                     </section>
