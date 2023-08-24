@@ -33,11 +33,13 @@ const Contact = () => {
             />
           </div>
           <div className="contactTwoIconsBox">
-            <Icons
+            <a href="https://linktr.ee/clinicaativamentepsi" target="_blank">
+            <Icons 
+              
               imgIcon={location}
               title="Localização"
               desc="Olinda-Pe"
-            />
+            /></a>
 
             <Icons
               imgIcon={user}

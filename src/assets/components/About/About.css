@@ -5,7 +5,7 @@
     background-color: #0ABBB5;
     height: 100%;
     width: 100%;
-    padding: 0px 5% 5% ;
+    padding: 0px 5% 5%;
 }
 
 .aboutBoxTitle {
@@ -34,7 +34,7 @@
     height: 5rem;
 }
 
-.aboutSpaceTwo{
+.aboutSpaceTwo {
     height: 8rem;
 }
 
@@ -54,7 +54,7 @@
     flex-direction: row-reverse;
 }
 
-.boxContentRigth .aboutContentRight{
+.boxContentRigth .aboutContentRight {
     color: white;
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -79,9 +79,28 @@
     object-position: 50% 20%;
 }
 
+.socialContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
 
 
-.imgContainer{
+
+.lattes img,
+.linkedin img {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
+
+.imgContainer {
     border: 0.5px solid white;
     padding: 10px;
     border-radius: 50%;
@@ -90,6 +109,8 @@
     justify-content: center;
 }
 
+
+
 .aboutContentLeft p {
     font-size: 25px;
     color: white;
@@ -97,13 +118,16 @@
     padding-top: 20px;
     text-shadow: 2px 2px 4px rgb(42, 41, 41);
 }
-.textContainer{
+
+.textContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-
+.redes {
+    display: flex;
+}
 
 .aboutContentRigth {
     width: 100%;
@@ -122,8 +146,8 @@
     display: flex;
 }
 
-@media(max-width: 1100px){
-    .boxContentRigth .aboutContentRight{
+@media(max-width: 1100px) {
+    .boxContentRigth .aboutContentRight {
         color: white;
         font-family: 'Poppins', sans-serif;
         width: 100%;
@@ -131,6 +155,7 @@
         font-size: 16px;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
     }
+
     .aboutContentRigth {
         width: 100%;
         padding: 0px 5%;
@@ -138,8 +163,9 @@
         color: white;
         font-family: 'Poppins', sans-serif;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
-    
+
     }
+
     .aboutContentLeft p {
         font-size: 20px;
         color: white;
@@ -147,16 +173,33 @@
         padding-top: 20px;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
     }
+
     .aboutContentLeft img {
         height: 250px;
         width: 250px;
         border-radius: 50%;
         border: white 5px solid;
     }
+
 }
 
-@media(max-width: 900px){
-    .boxContentRigth .aboutContentRight{
+.lattes img {
+    height: 5vh;
+    width: 5vh;
+    border: 1px solid white;
+    
+}
+
+.linkedin img {
+    height: 5vh;
+    width: 5vh;
+    border: 1px solid white;
+
+
+}
+
+@media(max-width: 900px) {
+    .boxContentRigth .aboutContentRight {
         color: white;
         font-family: 'Poppins', sans-serif;
         width: 100%;
@@ -164,6 +207,7 @@
         font-size: 14px;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
     }
+
     .aboutContentRigth {
         width: 100%;
         padding: 0px 5%;
@@ -171,8 +215,9 @@
         color: white;
         font-family: 'Poppins', sans-serif;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
-    
+
     }
+
     .aboutContentLeft p {
         font-size: 14px;
         color: white;
@@ -180,16 +225,29 @@
         padding-top: 20px;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
     }
+
     .aboutContentLeft img {
         height: 220px;
         width: 220px;
         border-radius: 50%;
         border: white 5px solid;
     }
+
+    .lattes img {
+        height: 7vh;
+        width: 7vh;
+        border: 1px solid white;
+    }
+
+    .linkedin img {
+        height: 7vh;
+        width: 7vh;
+        border: 1px solid white;
+    }
 }
 
-@media(max-width: 768px){
-    .boxContentRigth .aboutContentRight{
+@media(max-width: 768px) {
+    .boxContentRigth .aboutContentRight {
         color: white;
         font-family: 'Poppins', sans-serif;
         width: 100%;
@@ -197,36 +255,58 @@
         font-size: 15px;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
     }
+
     .aboutContentRigth {
         width: 100%;
-        padding: 0px 5% ;
+        padding: 0px 5%;
         font-size: 15px;
         color: white;
         font-family: 'Poppins', sans-serif;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
-    
+
     }
-    
+
     .aboutContentLeft img {
         height: 200px;
         width: 200px;
         border-radius: 50%;
         border: white 5px solid;
     }
-    .boxContentLeft {   
+
+    .boxContentLeft {
         flex-direction: column;
     }
-    .aboutContentLeft{
+
+    .aboutContentLeft {
         flex-direction: row;
         margin: 30px
     }
-    .textContainer{
+
+    .oi2 {
+        margin-left: 40px;
+    }
+
+    .textContainer {
         margin-left: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .lattes img {
+        height: 8vh;
+        width: 8vh;
+        border: 1px solid white;
+    }
+
+    .linkedin img {
+        height: 8vh;
+        width: 8vh;
+        border: 1px solid white;
+    }
+
+
     .aboutContentLeft p {
         font-size: 20px;
         color: white;
@@ -234,22 +314,24 @@
         padding-top: 20px;
         text-shadow: 2px 2px 4px rgb(42, 41, 41);
     }
-    .boxContentRigth{
+
+    .boxContentRigth {
         flex-direction: column;
     }
 
     .boxContentRigth .aboutContentLeft {
         flex-direction: row-reverse;
     }
-    .boxContentRigth .aboutContentLeft p{
-        
+
+    .boxContentRigth .aboutContentLeft p {
+
         flex-direction: row-reverse;
         margin-right: 50px;
         flex-wrap: nowrap;
     }
 
-    @media(max-width: 690px){
-        .boxContentRigth .aboutContentRight{
+    @media(max-width: 690px) {
+        .boxContentRigth .aboutContentRight {
             color: white;
             font-family: 'Poppins', sans-serif;
             width: 100%;
@@ -257,25 +339,26 @@
             font-size: 14.5px;
             text-shadow: 2px 2px 4px rgb(42, 41, 41);
         }
+
         .aboutContentRigth {
             width: 100%;
-            padding: 0px 5% ;
+            padding: 0px 5%;
             font-size: 14.5px;
             color: white;
             font-family: 'Poppins', sans-serif;
             text-shadow: 2px 2px 4px rgb(42, 41, 41);
-        
+
         }
-        
+
         .aboutContentLeft img {
             height: 180px;
             width: 180px;
             border-radius: 50%;
             border: white 5px solid;
         }
-        
-        
-        
+
+
+
         .aboutContentLeft p {
             font-size: 16px;
             color: white;
@@ -284,17 +367,36 @@
             text-shadow: 2px 2px 4px rgb(42, 41, 41);
             white-space: nowrap;
         }
-        
-    
+
+        .linkedin,
+        .lattes {
+            margin-right: 10px;
+            margin-top: 10px;
+
+        }
+
+        .lattes img {
+            height: 7vh;
+            width: 7vh;
+            border: 1px solid white;
+        }
+
+        .linkedin img {
+            height: 7vh;
+            width: 7vh;
+            border: 1px solid white;
+        }
+
     }
 
-    @media(max-width: 503px){
+    @media(max-width: 503px) {
         .aboutContentLeft img {
             height: 150px;
             width: 150px;
             border-radius: 50%;
             border: white 5px solid;
         }
+
         .aboutContentLeft p {
             font-size: 14px;
             color: white;
@@ -303,7 +405,8 @@
             text-shadow: 2px 2px 4px rgb(42, 41, 41);
             white-space: nowrap;
         }
-        .boxContentRigth .aboutContentRight{
+
+        .boxContentRigth .aboutContentRight {
             color: white;
             font-family: 'Poppins', sans-serif;
             width: 100%;
@@ -311,33 +414,64 @@
             font-size: 12px;
             text-shadow: 2px 2px 4px rgb(42, 41, 41);
         }
+
         .aboutContentRigth {
             width: 100%;
-            padding: 0px 5% ;
+            padding: 0px 5%;
             font-size: 12px;
             color: white;
             font-family: 'Poppins', sans-serif;
             text-shadow: 2px 2px 4px rgb(42, 41, 41);
-        
+
+        }
+
+
+
+        .socialContainer {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .linkedin,
+        .lattes {
+            margin-right: 10px;
+            margin-top: 10px;
+
+        }
+
+        .lattes img {
+            height: 7vh;
+            width: 7vh;
+            border: 1px solid white;
+        }
+
+        .linkedin img {
+            height: 7vh;
+            width: 7vh;
+            border: 1px solid white;
         }
     }
 
-    @media(max-width: 450px){
-        
-        .aboutContentLeft{
+    @media(max-width: 450px) {
+
+        .aboutContentLeft {
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            
+
         }
-        .oi{
+
+        .oi {
             margin-right: 45px;
         }
-        .aboutSpaceTwo{
+
+        .aboutSpaceTwo {
             height: 4rem;
         }
 
-        .boxContentRigth .aboutContentRight{
+        .boxContentRigth .aboutContentRight {
             color: white;
             font-family: 'Poppins', sans-serif;
             width: 100%;
@@ -345,14 +479,15 @@
             font-size: 14.5px;
             text-shadow: 2px 2px 4px rgb(42, 41, 41);
         }
+
         .aboutContentRigth {
             width: 100%;
-            padding: 0px 5% ;
+            padding: 0px 5%;
             font-size: 14.5px;
             color: white;
             font-family: 'Poppins', sans-serif;
             text-shadow: 2px 2px 4px rgb(42, 41, 41);
-        
+
         }
 
         .aboutContentLeft img {
@@ -360,6 +495,38 @@
             width: 160px;
             border-radius: 50%;
             border: white 5px solid;
+        }
+
+        .textContainer .oi2 {
+            margin-left: 10px;
+        }
+
+        .socialContainer {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin-right: 25px;
+        }
+
+        .linkedin,
+        .lattes {
+            margin-right: 10px;
+            margin-top: 10px;
+
+        }
+
+        .lattes img {
+            height: 7vh;
+            width: 7vh;
+            border: 1px solid white;
+
+        }
+
+        .linkedin img {
+            height: 7vh;
+            width: 7vh;
+            border: 1px solid white;
+
         }
     }
 }

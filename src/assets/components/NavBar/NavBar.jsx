@@ -23,6 +23,9 @@ const NavBar = () => {
         <Link to="quemSomos" smooth={true} duration={500} onClick={toggleMode}>
           <li className="navLinksLi">Quem Somos</li>
         </Link>
+        <Link to="clinicas" smooth={true} duration={500} onClick={toggleMode}>
+          <li className="navLinksLi">Clínicas</li>
+        </Link>
         <Link to="comoTrabalhamos" smooth={true} duration={500} onClick={toggleMode}>
           <li className="navLinksLi">Como Trabalhamos</li>
         </Link>
