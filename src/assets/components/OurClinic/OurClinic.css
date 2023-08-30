@@ -1,0 +1,183 @@
+
+.carroussel {
+  height: 600px;
+  width: 90%;
+  max-width: 1280px;
+}
+.carrousselDescriptionContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px;
+  color: #fff;
+  z-index: 1;
+}
+.carrousselDescription {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.carrousselDescriptionContent {
+  max-width: 700px;
+  font-family: inter, sans-serif;
+  font-weight: 200;
+}
+.carrousselDescriptionTitle {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+}
+.ourClinicTitle {
+  white-space: nowrap;
+  font-family: inter, sans-serif;
+  margin: 0px 20px;
+}
+.ourClinicTitleContainer{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 50px 0px;
+}
+.descFilter {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+.imgFilter {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  opacity: 0.1;
+}
+.carrousselSlideImg {
+  width: 100%;
+  object-fit: contain;
+}
+.ourClinicMapsBtn {
+  padding: 12px 20px;
+  background: rgba(217, 217, 217, 0.2);
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid #333;
+  font-family: inter, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 400;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap;
+}
+.ourClinicMapsBtn:hover {
+  background-color: #d9d9d9;
+  color: #000;
+  border-color: #555;
+}
+.swiper-button-prev, .swiper-button-next{
+    color: #fff;
+    width: 80px;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 60px;
+}
+
+@media (max-width: 1200px) {
+    .carroussel {
+        height: fit-content;
+      }
+      .carrousselDescriptionContent {
+        max-width:80%;
+        font-family: inter, sans-serif;
+        font-weight: 200;
+      }
+}
+
+@media (max-width: 800px){
+    .swiper-button-prev::after, .swiper-button-next::after{
+        font-size: 40px;
+    }
+    .carrousselDescriptionContainer {
+        height: 120px;
+    }
+    .carrousselDescriptionContent {
+        font-size: 0.8rem;
+      }
+      .carrousselDescriptionTitle {
+        font-size: 1.1rem;
+      }
+      .ourClinicMapsBtn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+      }
+
+}
+
+
+@media (max-width: 650px){
+    .swiper-button-prev::after, .swiper-button-next::after{
+        font-size: 30px;
+    }
+    .carrousselDescriptionContainer {
+        height: 100px;
+    }
+    .carrousselDescriptionContent {
+        font-size: 0.7rem;
+      }
+      .carrousselDescriptionTitle {
+        font-size: 0.8rem;
+      }
+      .ourClinicMapsBtn {
+        padding: 6px 14px;
+        font-size: 0.7rem;
+      }
+      .swiper-button-prev, .swiper-button-next{
+        width: 40px;
+    }
+    .carrousselDescriptionContainer {
+        padding: 15px 30px;
+      }
+}
+
+@media (max-width: 500px){
+      .carrousselDescriptionTitle {
+        font-size: 0.7rem;
+      }
+      .ourClinicMapsBtn {
+        padding: 6px 8px;
+        font-size: 0.7rem;
+      }
+      .swiper-button-prev, .swiper-button-next{
+        width: 40px;
+    }
+    .carrousselDescriptionContent {
+        max-width:100%;
+        font-family: inter, sans-serif;
+        font-weight: 200;
+        font-size: 0.6rem;
+      }
+      .carrousselDescriptionContainer {
+        padding: 5px 10px;
+        gap: 5px;
+      }
+      .carrousselDescription{
+        justify-content: center;
+        gap: 5px;
+      }
+}
+
+@media (max-width: 400px) {
+    .swiper-button-prev, .swiper-button-next{
+        width: 20px;
+    }
+    .swiper-button-prev::after, .swiper-button-next::after{
+        font-size: 20px;
+    }
+}
