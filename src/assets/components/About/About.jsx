@@ -17,7 +17,7 @@ const About = () => {
         <div id="aboutContainer">
             <div className='aboutBoxTitle'>
                 <p className='line'></p>
-                <h1 className='titleAbout'>Quem somos?</h1>
+                <h2 className='titleAbout'>Quem somos?</h2>
                 <p className='line'></p>
             </div>
 
