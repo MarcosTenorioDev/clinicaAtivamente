@@ -5,32 +5,27 @@ import "swiper/css/navigation";
 import "./OurClinic.css";
 import { Pagination, Navigation } from "swiper/modules";
 import carrousselTest from "../../images/carrousselTest.jpeg";
+import OlindaFrente from "../../images/OlindaFrente.jpeg";
+
+
 
 const OurClinic = () => {
   const carrousselData = [
     {
-      img: carrousselTest,
+      img: OlindaFrente,
       descriptionTitle: "Clinica Olinda",
       descriptionContent:
-        "XXXXXX XXXXXXXXXXXXXXX XXXXXX X XXXXXXXXX XXXXXXXX XXXXXXXX XXX XXXXX XXX XXXXXXXXX XXXX XXXXX",
+        "Endereço: R. Francisco A de Barros Leite, 220 - Bairro Novo, Olinda - PE, 53030-230",
       alt: "Sala da Clínica ativamente",
-      link : "",
-    },
-    {
-      img: carrousselTest,
-      descriptionTitle: "Clinica Jaboatão",
-      descriptionContent:
-        "XXXXXX XXXXXXXXXXXXXXX XXXXXX X XXXXXXXXX XXXXXXXX XXXXXXXX XXX XXXX XXXXXXXX XXXXX XXXXXXXXX",
-      alt: "Foto exterior da Clínica ativamente",
-      link : "",
+      link : "https://www.google.com.br/maps/place/R.+Francisco+A+de+Barros+Leite,+220+-+Bairro+Novo,+Olinda+-+PE,+53030-230/@-7.9975277,-34.8433389,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab3d48240c9207:0xbfd7801103c2e074!8m2!3d-7.997533!4d-34.840764!16s%2Fg%2F11hbgkk007?entry",
     },
     {
       img: carrousselTest,
       descriptionTitle: "Clinica Paulista",
       descriptionContent:
-        "XXXXXX XXXXXXXXXXXXXXX XXXXXX X XXXXXXXXX XXXXXX XXXXXXXXXX XXX XXXXX XXXX XXXXX XXX XXXXXXXXX",
+        "Av. Sen. Salgado Filho, 21 - Nobre, Paulista - PE, 53401-440",
       alt: "Recepção clinica ativamente",
-      link : "",
+      link : "https://www.google.com.br/maps/place/Av.+Sen.+Salgado+Filho,+21+-+Nobre,+Paulista+-+PE,+53401-440/@-7.9393139,-34.8826692,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab16125e21f275:0x734f1cb3bfe85f70!8m2!3d-7.9393192!4d-34.8800943!16s%2Fg%2F11h_khr24_?entry=ttu",
     },
   ];
   return (
