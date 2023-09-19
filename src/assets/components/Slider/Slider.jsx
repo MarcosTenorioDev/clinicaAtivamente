@@ -9,7 +9,7 @@ import { EffectCards, Pagination } from 'swiper/modules';
 export default function Slider({children}) {
   return (
     <>
-      <Swiper
+      <Swiper id='swiperCard'
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards, Pagination]}
